@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="test.xml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="hamburger-menu"></div>
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+      <li><a class="menu__item" href="./main.html">Главная</a></li>
+      <li><a class="menu__item" href="./encyclopedia.html">Энциклопедия</a></li>
+      <li><a class="menu__item" href="./catalogue.html">Каталог</a></li>
+      <li><a class="menu__item" href="./advert.html">Обьявления</a></li>
+      <li>
+        <a class="menu__item" href="./question.html"
+          >Задать вопрос ветеринару</a
+        >
+      </li>
+    </ul>
+    <div id="myModal" class="modal">
+      <div class="content">
+        <span class="close">&times;</span>
+        <div class="box">
+          <div class="text">
+            <div class="fio">
+              <h3></h3>
+            </div>
+            <div class="block">
+              <div class="pict"></div>
+              <div class="work">
+                <div class="info"></div>
+                <div class="direction_work"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gramota">
+          <div class="sertificat">
+            <img src="/src/img/sertificat.svg" alt="" />
+          </div>
+          <div class="sertificat">
+            <img src="/src/img/sertificat.svg" alt="" />
+          </div>
+          <div class="sertificat">
+            <img src="/src/img/sertificat.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Не закрывай его -->
+    <div id="blur">
+      <header>
+        <div class="logo">
+          <img src="/src/img/logo.svg" alt="" />
+        </div>
+        <div class="content">
+          <div class="tel">
+            <img src="/src/img/phone.svg" alt="" />
+            <div class="number">+375(29)9645478</div>
+          </div>
+          <div class="menu">
+            <div><a href="/encyclopedia.html">ЭНЦИКЛОПЕДИЯ</a></div>
+            <div><a href="/catalogue.html">КАТАЛОГ</a></div>
+            <div><a href="/advert.html">ОБЪЯВЛЕНИЯ</a></div>
+            <div>
+              <a href="/question.html" style="color: white"
+                >ЗАДАТЬ ВОПРОС ВЕТЕРИНАРУ</a
+              >
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="forma">
+        <h3>СКОРАЯ ПОМОЩЬ ДЛЯ ВАШЕГО ПИТОМЦА</h3>
+        <form>
+          <div class="title">
+            Оставьте заявку и мы перезвоним Вам в течении <b>3 минут!</b>
+          </div>
+          <div class="form_group">
+            <label for="phone_number">На какой номер перезвонить?</label>
+            <input
+              type="tel"
+              id="phone_number"
+              placeholder="Ваш номер телефона"
+            />
+          </div>
+          <button id="send">Отправить</button>
+          <div class="info">
+            Врач приедет к Вам домой и проведёт
+            <b>лечение любой сложности!</b> Начиная от укола и заканчивая
+            операцией!
+          </div>
+        </form>
+        <div class="footer">
+          Нажимая на кнопку Отправить, Вы соглашаетесь с правилами обработки
+          персональных данных.
+        </div>
+      </div>
+
+      <div class="advantage">
+        <h3>КАКИЕ У НАС ПРЕИМУЩЕСТВА</h3>
+        <div class="content">
+          <div class="time block">
+            <img src="./src/img/time.svg" alt="" />
+            <div>Большая экономия вашего времени</div>
+          </div>
+          <div class="team block">
+            <img src="./src/img/team.svg" alt="" />
+            <div>Не нужно стоять в очереди с питомцами</div>
+          </div>
+
+          <div class="stet block">
+            <img src="./src/img/stet.svg" alt="" />
+            <div>При осмотре питомец более спокоен</div>
+          </div>
+
+          <div class="stet block">
+            <img src="./src/img/home.svg" alt="" />
+            <div>Привычная для питомцев среда</div>
+          </div>
+
+          <div class="stet block">
+            <img src="./src/img/list.svg" alt="" />
+            <div>Назначения и лечение от профессионалов</div>
+          </div>
+
+          <div class="stet block">
+            <img src="./src/img/calendar.svg" alt="" />
+            <div>Выбор даты и времени приёма специалиста</div>
+          </div>
+
+          <div class="stet block">
+            <img src="./src/img/comment.svg" alt="" />
+            <div>Настоящие отзывы от наших клиентов</div>
+          </div>
+
+          <div class="stet block">
+            <img src="./src/img/location.svg" alt="" />
+            <div>Возможность найти врача по близости</div>
+          </div>
+
+          <div class="stet block">
+            <img src="./src/img/wallet.svg" alt="" />
+            <div>Возможность безналичной оплаты</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="doctor" id="doctor">
+        <div class="foto block">
+          <img src="./src/img/doctor.svg" alt="" />
+        </div>
+        <div class="clerk block">
+          <div class="appellation">
+            <h3>КТО У НАС РАБОТАЕТ</h3>
+          </div>
+          <div class="content">
+            <div class="1 block">
+              <img src="./src/img/1.svg" alt="" />
+              <div class="title">Тихонова Оксана Дмитриевна</div>
+              <div class="about">
+                Терапевт, стоматолог, офтмальмолог, хирург, экспресс анализы,
+                ратолог, грумер
+              </div>
+              <button class="click" id="click_1">Подробнее</button>
+            </div>
+
+            <div class="2 block">
+              <img src="./src/img/2.svg" alt="" />
+              <div class="title">Басова Софья Витальевна</div>
+              <div class="about">
+                Хирург, терапевт, невролог, кардиолог, экспресс- анализы,
+                стоматолог, узи специалист
+              </div>
+              <button class="click" id="click_2">Подробнее</button>
+            </div>
+
+            <div class="3 block">
+              <img src="./src/img/3.svg" alt="" />
+              <div class="title">Киреев Максим Андреевич</div>
+              <div class="about">
+                Терапевт, грумер, стоматолог, ультразвуковая чистка зубов,
+                эвтаназия и кремация, ратолог
+              </div>
+              <button class="click" id="click_3">Подробнее</button>
+            </div>
+
+            <div class="4 block">
+              <img src="./src/img/4.svg" alt="" />
+              <div class="title">Зубарянов Левон Наирович</div>
+              <div class="about">
+                Хирург, терапевт, кастрация, стерилизация, травмотолог,
+                остеосинтез, эвтаназия и кремация
+              </div>
+              <button class="click" id="click_4">Подробнее</button>
+            </div>
+
+            <div class="5 block">
+              <img src="./src/img/5.svg" alt="" />
+              <div class="title">Царева Сабина Владиславовна</div>
+              <div class="about">
+                Хирург, роды, кастрация, стерилизация, терапевт, дерматология,
+                офтальмология
+              </div>
+              <button class="click" id="click_5">Подробнее</button>
+            </div>
+
+            <div class="6 block">
+              <img src="./src/img/6.svg" alt="" />
+              <div class="title">Евсеев Вадим Валерьевич</div>
+              <div class="about">
+                Хирург, терапевт, кастрация, стерелизация, прививки,
+                чипирование, орнитолог
+              </div>
+              <button class="click" id="click_6">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="comment_fon">
+          <img src="./src/img/comment_fon.svg" alt="" />
+        </div>
+        <div class="content">
+          <h3>ПОСЛЕДНИЕ ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h3>
+          <div class="block">
+            <div class="1 box">
+              <div class="pictur">
+                <img src="./src/img/1_comment_akk.svg" alt="" />
+              </div>
+              <div class="text">
+                Здавствуйте, Оксана, это Ольга и Дмитрий. Хотелось бы выразить
+                благодарность и большое человеческое и кошачье спасибо -
+                ветеринарному врачу Оксане Дмитриевне, за проявленную отвагу в
+                укрощении нашего кота Шурика с "сиамским характером" и огромный
+                профессионализм и оперативность при осмотре и проведении
+                необходимых процедур с нашим питомцем.У кота на протяжении двух
+                дней не было аппетита, были проблемы с мочеиспусканием. Котику
+                нашему Шурику значительно легче! Появился аппетит, ходить стал
+                лучше, писает часто после мочегонных, нос влажный.
+              </div>
+            </div>
+            <div class="2 box">
+              <div class="pictur">
+                <img src="./src/img/2_comment_akk.svg" alt="" />
+              </div>
+              <div class="text">
+                Обратился в ветеринарнадом.рф по рекомендации, необходима была
+                консультация квалифицированного специалиста. Был в отпуске,
+                любимый котик (после передержки в частном приюте) мучился
+                гнойным насморком, неподдающимся лечению. Врач Сабина
+                Владиславовна приехала вовремя и без опозданий. Внимательно
+                осмотрела котика, подробно все расспросила, у нас были
+                подозрения на неизлечимые заболевания. Доктор взяла все нужные
+                анализы и назначила средства. На следующий день уже были
+                результаты, кот задышал, стал спокойно спать, из носа перестал
+                течь гной.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="menu">
+          <div>
+            <div class="title">Энциклопедия:</div>
+            <div>Кошки</div>
+            <div>Собаки</div>
+            <div>Птицы</div>
+          </div>
+          <div>Каталог</div>
+          <div>
+            <div class="title">Обьявления:</div>
+            <div>Куплю</div>
+            <div>Продам</div>
+            <div>Отдам</div>
+          </div>
+          <div>
+            <div class="title">Мы работаем в городах:</div>
+            <div class="box">
+              <div class="box_1">
+                <div>Минск</div>
+                <div>Гродно</div>
+                <div>Могилев</div>
+                <div>Брест</div>
+              </div>
+              <div class="box_1">
+                <div>Гомель</div>
+                <div>Барановичи</div>
+                <div>Жодино</div>
+                <div>Смоливичи</div>
+              </div>
+              <div class="box_1">
+                <div>Мозырь</div>
+                <div>Калинковичи</div>
+                <div>Борисов</div>
+                <div>Бобруйск</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script type="text/javascript" src="./src/script/script.js"></script>
+</html>
